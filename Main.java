@@ -33,7 +33,7 @@ public class Main {
         System.out.println("---");
 
         osiedle[2] = new Biurowiec();
-        osiedle[2].getStan();
+        //osiedle[2].getStan();
 
     }
 }

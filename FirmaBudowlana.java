@@ -15,19 +15,4 @@ public class FirmaBudowlana {
         if (B.isCzyOdnowiony()) price*= 2;
         return price;
     }
-
-/*
-    public static void abandon(Budynek B){
-        if(B instanceof Biurowiec){
-            ((Biurowiec) B).setFirma(null);
-            B.setCzyZajety(false);
-        }
-        if(B instanceof Dom){
-            B.setOwner(null);
-            ((Dom) B).leaveAll();
-            B.setCzyZajety(false);
-        }
-    }
-
- */
 }

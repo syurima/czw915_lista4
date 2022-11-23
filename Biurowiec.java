@@ -19,6 +19,7 @@ public class Biurowiec extends Budynek{
     }
     public void setFirma(Firma firma) {
         this.firma = firma;
+        this.setOwner(firma.getOwner());
         this.setCzyZajety(true);
     }
 
@@ -26,7 +27,7 @@ public class Biurowiec extends Budynek{
         System.out.println("biurowiec");
         super.getStan();
         System.out.println("Firma: " + this.firma.getNazwa());
-        this.firma.wypiszPracownikow();
+        //this.firma.wypiszPracownikow();
         System.out.println("");
     }
 }
